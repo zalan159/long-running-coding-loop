@@ -13,7 +13,7 @@ We used this system to implement **11 features** for a Chromium-based enterprise
 | Tasks completed | 11/11 |
 | Total runtime | ~12 hours |
 | Total cost | ~$181 (Claude API) |
-| Human intervention | 3 times (fix IME bug, grant macOS permission, skip system-blocked test) |
+| Human intervention | 0 |
 | Features | JS dialogs, file chooser, permissions, fullscreen, downloads, toast, notifications, badges, keyboard input, etc. |
 
 Each feature went through the full cycle: **plan - implement - compile - test - (fix - retest)** completely autonomously. The test agent verified goals using screenshots, accessibility tree inspection, log analysis, and unit tests.
