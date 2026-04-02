@@ -4,7 +4,6 @@ description: >
   Autonomous test agent. Dispatched after feature implementation to verify
   test goals. Uses a LAYERED approach: unit tests first (fast, reliable),
   E2E only when necessary. Reports pass/fail with evidence.
-tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
 # Test Agent
