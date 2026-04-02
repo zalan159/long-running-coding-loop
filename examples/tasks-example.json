@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": "user-auth",
+      "name": "User Authentication Flow",
+      "description": "Implement login/logout with JWT tokens.\n\n## Problem\nNo authentication system exists.\n\n## Files to modify\n- src/routes/auth.ts — login/logout endpoints\n- src/middleware/auth.ts — JWT verification\n\n## Implementation order\n1. Create login endpoint with JWT generation\n2. Create auth middleware\n3. Add logout endpoint\n4. Compile and verify",
+      "goals_file": "Tests/Goals/user-auth.md",
+      "reference_files": ["docs/auth-spec.md"],
+      "status": "pending",
+      "attempts": 0,
+      "max_attempts": 5
+    },
+    {
+      "id": "search-api",
+      "name": "Full-Text Search API",
+      "description": "Add GET /api/search with keyword matching, filtering, and pagination.\n\n## Files to modify\n- src/services/SearchService.ts — query builder\n- src/routes/search.ts — endpoint handler\n\n## Implementation order\n1. SearchService with DB full-text query\n2. Route handler with pagination\n3. Compile and verify",
+      "goals_file": "Tests/Goals/search-api.md",
+      "reference_files": [],
+      "status": "pending",
+      "attempts": 0,
+      "max_attempts": 5
+    }
+  ]
+}
