@@ -1,6 +1,6 @@
-# Coding Loop
+# Long-Running Coding Loop
 
-A fully autonomous **implement - test - fix** loop for AI coding agents. Define tasks in JSON, and the loop automatically plans, implements, compiles, tests, fixes, and commits — running for hours without human intervention.
+A fully autonomous **implement - test - fix** loop for AI coding agents. Define tasks in JSON, and the loop runs for hours — planning, implementing, compiling, testing, fixing, and committing — without human intervention.
 
 Supports **Claude Code** (`run_claude_code.py`) and **OpenAI Codex CLI** (`run_codex.py`).
 
